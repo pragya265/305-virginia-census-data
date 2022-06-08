@@ -23,7 +23,7 @@ varlist=['TotalPop', 'Men', 'Women', 'Hispanic',
        'WorkAtHome', 'MeanCommute', 'Employed', 'PrivateWork', 'PublicWork',
        'SelfEmployed', 'FamilyWork', 'Unemployment', 'RUCC_2013']
 
-df=pd.read_pickle('resources/va-stats.pkl')
+df=pd.read_csv('resources/new_york.csv')
 
 ########### Initiate the app
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
